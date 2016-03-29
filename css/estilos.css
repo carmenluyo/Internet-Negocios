@@ -140,18 +140,21 @@ h2{
   background-repeat: no-repeat;
   background-size: cover;
   
+  
 }
 
 .bg-blue-2{
   background-image: url('../img/02/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .bg-blue-3{
   background-image: url('../img/03/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 
@@ -159,60 +162,67 @@ h2{
     background-image: url('../img/06/fondo.png');
     background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .bg-orange-2{
     background-image: url('../img/06/fondo.png');
     background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .bg-orange-3{
     background-image: url('../img/08/fondo.png');
     background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 
-.bg-pink-1 {
-  background-image: url('../img/36/fondo.png');
+.bg-green-1 {
+  background-image: url('../img/35/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
-.bg-pink-2{
+.bg-blue-1 {
   background-image: url('../img/33/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
-.bg-pink-3{
 
-}
-
-.bg-green-1{
+.bg-purple-0 {
   background-image: url('../img/47/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
-
+  
+}
 
 .bg-green-2 {
   background-image: url('../img/48/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .bg-green-3{
   background-image: url('../img/60/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .bg-telefonica{
   background-image: url('../img/90/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .bg-box-blue-oscuro {
   background-color: #018194 !important;
-
 }
 
 .color-blue {
@@ -222,28 +232,35 @@ h2{
   background-image: url('../img/56/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .bg-purple-2{
   background-image: url('../img/58/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .pb-56 {
     padding-bottom: 56px;
 }
 
-.bg-purple-3{
-
+.bg-pink-2 {
+  background-image: url('../img/33/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-telefonica{
-
+  background-image: url('../img/77/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bg-blue-oscuro {
   background-image: url('../img/65/fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .bg-purple {
   background-color: #9C3E9B !important;
@@ -297,6 +314,10 @@ section{
 }
 
 
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 /* Slide 1 */
 
@@ -419,7 +440,7 @@ section{
 
 .circle-white {
     background-color: white;
-    padding: 20%;
+        padding: 10%;
     text-align: center;
     border-radius: 50%;
     width: 100%;
@@ -533,7 +554,7 @@ input[type=checkbox]{
 }
 .circle-white-small-3 {
     background-color: white;
-    padding: 15% 15%;
+    padding: 10% 10%;
     text-align: center;
     border-radius: 50%;
     width: 180px;
@@ -565,7 +586,7 @@ input[type=checkbox]{
     width: 105px;
     height: 100px;
     margin: 0 auto;
-    padding: 6% 5%;
+    padding: 20% 5%;
 }
 .circle-white-small-6 {
     background-color: white;
@@ -670,7 +691,7 @@ input[type=checkbox]{
   padding-top: 40%;
 }
 .container-2{
-  width: 960px;
+  width: 100%;
 }
 .margin-bott-5 {
   margin-bottom: 5%;
@@ -862,107 +883,54 @@ input[type=checkbox]{
   z-index: 18;
 }
 
-
-
-
-
-/* Slide 3 */
-
-.content-circles{
-  position:relative;
+.p1 {
+  animation-delay: 1.5s;
 }
-.linear-circle{
-  width:200px;
-  height:200px;
-  border:3px dashed #ffffff;
-  position:absolute;
-  border-radius:50%;
-  z-index:-1;
+.p2 {
+  animation-delay: 2.5s;
 }
-@-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.p3 {
+  animation-delay: 3.5s;
 }
-@keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.p4 {
+  animation-delay: 4.5s;
 }
-.rotating {
-  -webkit-animation: rotating 10s linear infinite;
-  -moz-animation: rotating 10s linear infinite;
-  -ms-animation: rotating 10s linear infinite;
-  -o-animation: rotating 10s linear infinite;
-  animation: rotating 10s linear infinite;
+.p5 {
+  animation-delay: 5.5s;
 }
-.lc1{
-  top:-100px;
-  left:17%;
-}
-.lc2{
-  top:-100px;
-  left:42%;
-}
-.lc3{
-  top:-100px;
-  left:67%;
-}
-.circle-1{
-  position:absolute;
-  left:5%;
-  top:-20px;
-}
-.circle-2{
-  position:absolute;
-  left:30%;
-  top:-180px;
-}
-.circle-3{
-  position:absolute;
-  left:55%;
-  top:-180px;
-}
-.circle-4{
-  position:absolute;
-  left:80%;
-  top:-20px;
-}
-.content-circle-1 {
-    position: absolute;
-    right: 0;
+.p6 {
+  animation-delay: 6.5s;
 }
 
+/* ANIMACIONES DE CIRCULO */
 
+.circle-1-animacion {
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
 
+.circle-2-animacion {
+  animation-duration: 2s;
+  animation-delay: 2.5s;
+}
+.circle-3-animacion {
+  animation-duration: 2s;
+  animation-delay: 3.5s;
+}
 
+.circle-4-animacion {
+  animation-duration: 2s;
+  animation-delay: 4.5s;
+}
+.circle-5-animacion {
+  animation-duration: 2s;
+  animation-delay: 5.5s;
+}
 
-/*  RESPONSIVE MENU */
-
-  /* T A B L E T */
-
+.circle-6-animacion {
+  animation-duration: 2s;
+  animation-delay: 6.5s;
+}
 
 @media screen and (max-width: 800px) and (min-width: 701px) {
   .tablet > img {
@@ -987,6 +955,7 @@ input[type=checkbox]{
   .content-check .content-text-check {
     position: initial !important;
   }
+
   .circle-green > img {
     width: 82%;
   }
@@ -1002,6 +971,36 @@ input[type=checkbox]{
 }
 
 @media screen and (max-width: 700px) and (min-width: 200px) {
+  .paddingTop-95 {
+        margin-top: -95% !important;
+
+  }
+  .padding-3 {
+    width: 100%   !important;
+}
+
+  .circle-white-small-5 {
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 43% 5%;
+}
+  .circle-white-small-5  > img{
+        width: 50%;
+  }
+  .circle-white-small-3, .circle-white-small-2 {
+    width: 90px;
+    height: 90px;
+  }
+  .circle-white-small-3  > img {
+        width: 100%;
+  }
+  .circle-white-small-2 > img {
+    width: 60%;
+  }
   .marginTop-23 {
     margin-top: -23px;
   }
@@ -1152,8 +1151,8 @@ input[type=checkbox]{
     text-align: center;
   }
   .circle-responsive > img {
-    width: 100%;
-      padding: 25% 5%;
+        width: 75%;
+    padding: 27% 8%;
   }
   .circle-small-2 {
     height: 80%;
@@ -1271,4 +1270,3 @@ input[type=checkbox]{
       font-size: 14px;
   }
 }
- 
