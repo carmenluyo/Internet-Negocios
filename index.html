@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Brayan Cruces">
+    <meta name="author" content="Carmen Luyo">
 
     <title>Internet negocios</title>
 
@@ -25,7 +25,7 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -103,56 +103,58 @@
     <div id="slide-4">
         <section class="bg center bg-blue-3 animated fadeIn">
             <div class="container">
-                <div class="row mgtop-9">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="content-circle-1">
-                            <div class="circle-big cb1">
-                                <p class="font-bold">1</p>
-                              <div class="circle-small c-in1"></div>
-                              <h4>PRODUCTO</h4>
-                            </div>
-                        </div>
+                <div class="row">
+                  <div class="dashed-right rotating hidden-xs"></div>
+                  <div class="dashed-left rotating hidden-xs"></div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="content-circle-1 animated zoomIn">
+                      <div class="circle-big cb1">
+                        <p class="font-bold">1</p>
+                        <div class="circle-small c-in1"></div>
+                        <h4>PRODUCTO</h4>
+                      </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="content-circle-3">
-                            <div class="circle-big cb2">
-                                <p class="font-bold">3</p>
-                              <div class="circle-small c-in3"></div>
-                              <h4>ALTA</h4>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
+                    <div class="content-circle-3 animated zoomIn">
+                      <div class="circle-big cb2">
+                        <p class="font-bold">3</p>
+                        <div class="circle-small c-in3"></div>
+                        <h4>ALTA</h4>
+                      </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="content-circle-4">
-                            <div class="circle-big cb3">
-                                <p class="font-bold">5</p>
-                                 <div class="circle-small c-in5"></div>
-                                 <h4>POSTVENTA</h4>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
+                    <div class="content-circle-4 animated zoomIn">
+                      <div class="circle-big cb3">
+                        <p class="font-bold">5</p>
+                         <div class="circle-small c-in5"></div>
+                         <h4>POSTVENTA</h4>
+                      </div>
                     </div>
+                  </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-sm-4 col-xs-12">
-                        <div class="content-circle-2">
-                            <div class="circle-big c-2">
-                                <p class="font-bold">2</p>
-                              <div class="circle-small c-in2"></div>
-                              <h4>VENTA</h4>
-                            </div>
-                        </div>
+                  <div class="col-md-6 col-sm-4 col-xs-12 hidden-xs">
+                    <div class="content-circle-2 animated zoomIn">
+                      <div class="circle-big c-2">
+                        <p class="font-bold">2</p>
+                        <div class="circle-small c-in2"></div>
+                        <h4>VENTA</h4>
+                      </div>
                     </div>
-                    <div class="col-md-6 col-sm-4 col-xs-12">
-                        <div class="content-circle-5">
-                            <div class="circle-big c-1">
-                                <p class="font-bold">4</p>
-                              <div class="circle-small c-in4"></div>
-                              <h4>LIQUIDACION</h4>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-md-6 col-sm-4 col-xs-12 hidden-xs">
+                    <div class="content-circle-5 animated zoomIn">
+                      <div class="circle-big c-1">
+                        <p class="font-bold">4</p>
+                        <div class="circle-small c-in4"></div>
+                        <h4>LIQUIDACION</h4>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
+              </div>
         </section>
     </div>
 
@@ -444,11 +446,14 @@
                 <div class="content-check text-center">
                     <img class="w-85" src="img/15/personaje.png">
                     <div class="content-text-check">
-                        <h4 class="font-bold">Son beneficios del servicio:</h4>
+                        <h4 class="font-bold">1.Son beneficios del servicio:</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Crecimiento: Facil migracion de servicio y aumento de velocidad</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Tener lineas de Prepago</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Administrar la comunicacion interna</p>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Crecimiento: Facil migracion de servicio y aumento de velocidad</label><br>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Tener lineas de Prepago</label><br>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Administrar la comunicacion interna</label><br>
                         </div>
                     </div>
                 </div>
@@ -466,8 +471,10 @@
                     <div class="content-text-check">
                         <h4 class="font-bold text-justify">2.Clientes que monitorean su negocio mediante camaras por internet pueden adquiri el servicio?</h4>
                         <div class="content-intern-check text-center">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Verdadero</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Falso</p>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Verdadero</label><br>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" style="margin-left: -31px;" class="checkbox-custom-label">falso</label><br>
                         </div>
                     </div>
                 </div>
@@ -485,9 +492,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold text-justify">3. No es una caracteristica del servicio de internet</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Tiene una cantidad de Ip de 8 IPS fijas</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Su tasa asegurada de servicio es del 100%</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">El router de cisco de 800</p>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Tiene una cantidad de Ip de 8 IPS fijas</label><br>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Su tasa asegurada de servicio es del 100%</label><br>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">El router de cisco de 800</label><br>
                         </div>
                     </div>
                 </div>
@@ -505,9 +515,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold text-justify">4. El medio de acceso en Movistar con relacion a la competencia es:</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Cobre</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Fibra optica</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Enlace</p>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Cobre</label><br>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Fibra optica</label><br>
+                            <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label">Enlace</label><br>
                         </div>
                     </div>
                 </div>
@@ -886,10 +899,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-pink text-justify">1.Cuando el ejecutivo comercial solicita facilidades técnicas en Sales Force al equipo encargado. Es parte del proceso de: </h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Pre oportunidad</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Desarrollo de la oferta</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Definicion de la solucion</p>
-                            
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Pre oportunidad</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Desarrollo de la oferta</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Definicion de la solucion</label><br>
                         </div>
                     </div>
                 </div>
@@ -907,8 +922,10 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-pink text-justify">2.Todo pedido en WS tendra 2 dias de vida antes de ser rechazado por documentacion incompleta</h4>
                         <div class="content-intern-check text-center">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Verdadero</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Falso</p>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Verdadero</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3"  style="margin-left: -31px;"class="checkbox-custom-label-fuchsia">falso</label><br>
                         </div>
                     </div>
                 </div>
@@ -926,9 +943,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-pink text-justify">3.Preventa cierra a ISIS; crea caso a GICS para generación de ordenes de servicio y asigna caso a GICS. Es parte del proceso de:</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Desarrollo de la oferta</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Cierre de oportunidad</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Pre oportunidad</p>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Desarrollo de la oferta</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Cierre de oportunidad</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Pre oportunidad</label><br>
                         </div>
                     </div>
                 </div>
@@ -946,8 +966,10 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-pink text-justify">4. Pre vent Crea Pedido en Web de Seguimiento y Publica documentacion completa?</h4>
                         <div class="content-intern-check text-center">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Verdadero</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Falso</p>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-fuchsia">Verdadero</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-fuchsia" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3"  style="margin-left: -31px;"class="checkbox-custom-label-fuchsia">falso</label><br>
                         </div>
                     </div>
                 </div>
@@ -1224,9 +1246,14 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-green text-justify" style="font-size: 15px;">1.Segun la documentacion proporcionada referente a la Presencia Digital gestionada, se dice que.. -La campaña de maketing online consiste en que el landing page del CLIENTE aparezca en;(i) directorios de busqueda online (OLX,Alamaula y Soicos); (ii)Google Adwords;(iii)Google Places;y, en caso sea requerido por el CLIENTE, (iv) se incorpora en el landing page un boton de acceso directo a redes sociales. Se garantiza el siguiente numero de visitas mensuales.Nos referimos a :</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Presencal Digital Gestionada Basico</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Presencal Digital Gestionada Intermedio</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Presencal Digital Gestionada Avanzado</p>
+
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Presencal Digital Gestionada Basico</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Presencal Digital Gestionada Intermedio</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Presencal Digital Gestionada Avanzado</label><br>
+
                         </div>
                     </div>
                 </div>
@@ -1244,9 +1271,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-green text-justify">2.Si se ejecuta Programación de Servicio en la Red IP, es parte del proceso: </h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Planificación</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Centro de Gestión</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Instalación</p>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Planificación</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Centro de Gestión</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Instalación</label><br>
                         </div>
                     </div>
                 </div>
@@ -1264,9 +1294,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-green text-justify">3.Encargado de añadir notas en WS con la feha de Ejecucion: </h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Back office</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Ejecutivo Comercial</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Preventa</p>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Back office</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Ejecutivo Comercial</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Preventa</label><br>
                         </div>
                     </div>
                 </div>
@@ -1284,8 +1317,10 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-green text-justify">4.Proceso de instalacion inicia, una vez generada la orden de servicio</h4>
                         <div class="content-intern-check text-center">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Verdadero</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Falso</p>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-green">Verdadero</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-green" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3"  style="margin-left: -31px;" class="checkbox-custom-label-green">falso</label><br>
                         </div>
                     </div>
                 </div>
@@ -1573,9 +1608,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold color-purple">1.Cliente brinda la conformidad del pedido instaaldo, se liquida en ISIS y Web de Seguimiento para que inicie la facturacion recurrente del servicio, se refiere a:</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox"> Liquidacion pedido.</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Facturacion ciclica.</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Proceso de instalacion.</p>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Liquidacion pedido.</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Facturacion ciclica.</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Proceso de instalacion.</label><br>
                         </div>
                     </div>
                 </div>
@@ -1593,29 +1631,12 @@
                     <div class="content-text-check">
                         <h4 class="font-bold text-justify color-purple">2. Liquidar pedido en ISIS con los codigos de tarifas o cotizacion, se esta elaborando</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Liquidar pedido</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Facturacion Aciclica</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Facturacion Ciclica</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!-- SLIDE- 63 -->
-    <div id="slide-63">
-        <section class="bg center bg-purple-0 animated fadeIn ">
-            <div class="padding-section-2 mg-auto margin-bott-5">
-                <h4 class="font-bold text-left">1.PRODUCTO</h4>
-                <div class="content-check text-center">
-                    <img class="w-85" src="img/25/personaje.png">
-                    <div class="content-text-check">
-                        <h4 class="font-bold text-justify color-purple" >3.Envia mail a Rosa chiri, para que genere factura electronica adjuntando "Formato Facturacion"</h4>
-                        <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Liquidar pedido</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Facturacion Aciclica</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Facturacion Ciclica</p>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Liquidar pedido</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Facturacion Aciclica</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Facturacion Ciclica</label><br>
                         </div>
                     </div>
                 </div>
@@ -1623,25 +1644,52 @@
         </section>
     </div>
     
-    <!-- SLIDE- 64 -->
-    <div id="slide-64">
-        <section class="bg center bg-purple-1 animated fadeIn ">
+    <!-- SLIDE-63 -->
+    <div id="slide-63">
+        <section class="bg center bg-purple-0 animated fadeIn ">
             <div class="padding-section-2 mg-auto margin-bott-5">
                 <h4 class="font-bold text-left">1.PRODUCTO</h4>
                 <div class="content-check text-center">
-                    <img class="w-85" src="img/25/personaje.png">
+                    <img class="w-85" src="img/15/personaje.png">
                     <div class="content-text-check">
-                        <h4 class="font-bold text-justify color-purple">4.Generar pedidos en ISIS sea el requerimento del cliente, se encarga el:</h4>
+                        <h4 class="font-bold text-justify color-purple" >3.Envia mail a Rosa chiri, para que genere factura electronica adjuntando "Formato Facturacion"</h4>
                         <div class="content-intern-check">
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Tecnico</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Facturacion</p>
-                            <p><input name="beneficios" value="navegation" data-corin-checkbox="true" type="checkbox">Comercial</p>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Liquidar pedido</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Facturacion Aciclica</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Facturacion Ciclica</label><br>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </div>   
+    </div>
+
+    <!-- SLIDE-64 -->
+    <div id="slide-64">
+        <section class="bg center bg-purple-0 animated fadeIn ">
+            <div class="padding-section-2 mg-auto margin-bott-5">
+                <h4 class="font-bold text-left">1.PRODUCTO</h4>
+                <div class="content-check text-center">
+                    <img class="w-85" src="img/15/personaje.png">
+                    <div class="content-text-check">
+                        <h4 class="font-bold text-justify color-purple">4.Generar pedidos en ISIS sea el requerimiento del cliente, se encarga el:</h4>
+                        <div class="content-intern-check">
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Liquidar pedido</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Facturacion Aciclica</label><br>
+                            <input id="checkbox-3" class="checkbox-custom-purple" name="checkbox-3" type="checkbox">
+                            <label for="checkbox-3" class="checkbox-custom-label-purple">Facturacion Ciclica</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
                         
     <!-- SLIDE 65-->
 
@@ -1738,8 +1786,130 @@
     <!-- Slide 69--> 
     <div id="slide-69">
         <section class="bg center bg-blue-oscuro animated fadeIn">
-            <div class="padding-section-2 mg-auto mgb-8">
+            <div style="margin-top: -36%;margin-bottom: 2%;" class="padding-section-2 mg-auto mgb-8">
                 <h4 class="font-bold text-left title-six">5. POSVENTA</h4>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-xs-12">
+                    <div id="tree" class="tree-chart" height="800" width="100%">
+                      <div class="dogtag boy one-dg bg-bluedark-strong">
+                        <a>
+                          Rutinas
+                        </a>
+                      </div>
+                      <div class="dogtag boy two-dg bg-bluedark-light">
+                        <a>
+                          Proceso de Baja Final
+                        </a>
+                      </div>
+                      <div class="dogtag boy three-dg bg-bluedark-light">
+                        <a>
+                          Proceso de cambio de Routeador<br>Proceso de Reprogramación de Equipos<br>Proceso de Cambio de Sitio
+                        </a>
+                      </div>
+                      <div class="dogtag boy four-dg bg-bluedark-light">
+                        <a>
+                          Proceso de Cambio de Velocidad
+                        </a>
+                      </div>
+                      <div class="dogtag boy five-dg bg-bluedark-light">
+                        <a>
+                          Proceso de Migración de Servicio
+                        </a>
+                      </div>
+                      <div class="dogtag boy six-dg bg-bluedark-light">
+                        <a>
+                          Proceso de Cambio de Medio de Transmisión
+                        </a>
+                      </div>
+                      <div class="dogtag boy seven-dg bg-bluedark-light">
+                        <a>
+                          Proceso de Traslado
+                        </a>
+                      </div>
+                       <div class="link father-branch line" style="left: 53px; top: 5px; width: 300px; height: 45px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+                      <div class="link mother-branch line" style="left: 100px; top: 50px; width: 206.5px; height: 25px;">
+                        <span class="first"></span>
+                      </div>
+                      <div class="link father-branch line" style="left: 100px; top: 75px; width: 206.5px; height: 25px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+                      <div class="link mother-branch line" style="left: 100px; top: 100px; width: 206.5px; height:50px;">
+                        <span class="first"></span>
+                      </div>
+                      <div class="link father-branch line" style="left: 100px; top: 150px; width: 206.5px; height: 65px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+                      <div class="link mother-branch line" style="left: 100px; top: 195px; width: 206.5px; height: 25px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+
+                      <div class="link mother-branch line" style="left: 100px; top: 220px; width: 206.5px; height: 50px;">
+                        <span class="first"></span>
+                      </div>
+                      <div class="link father-branch line" style="left: 100px; top: 269px; width: 206.5px; height: 25px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+
+                      <div class="link mother-branch line" style="left: 100px; top: 285px; width: 206.5px; height: 45px;">
+                        <span class="first"></span>
+                      </div>
+                      <div class="link father-branch line" style="left: 100px; top: 320px; width: 206.5px; height: 50px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+                      <div class="link father-branch line" style="left: 100px; top: 370px; width: 206.5px; height: 25px;">
+                        <span class="first first-ult"></span>
+                        <span class="second"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-xs-12">
+                     <div id="tree tree2" class="tree-chart colum-2" height="800" width="100%">
+                      <div  style="left: 118px !important;" class="dogtag boy one-dg bg-bluedark-strong">
+                        <a>
+                          Modelo de Atención
+                        </a>
+                      </div>
+                      <div style="left: 118px !important;"  class="dogtag boy two-dg bg-bluedark-light">
+                        <a>
+                          Proceso de Averías
+                        </a>
+                      </div>
+                      <div style="left: 118px !important;"  class="dogtag boy three-dg bg-bluedark-light">
+                        <a>
+                          Proceso de Reclamos
+                        </a>
+                      </div>              
+                       <div class="link father-branch line" style="left: -70px; top: 5px; width: 300px; height: 50px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+                      <div class="link mother-branch line" style="left: -23px; top: 50px; width: 206.5px; height: 25px;">
+                        <span class="first"></span>
+                      </div>
+                      <div class="link father-branch line" style="left: -23px; top: 75px; width: 206.5px; height: 25px;">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                      </div>
+                      <div class="link mother-branch line" style="left: -23px; top: 100px; width: 206.5px; height:30px;">
+                        <span class="first"></span>
+                      </div>
+                      <div class="link father-branch line" style="left: -23px; top: 130px; width: 206.5px; height: 25px;">
+                        <span class="first first-ult"></span>
+                        <span class="second"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </section>
     </div>
@@ -2066,17 +2236,37 @@
     <!-- SLIDE-84 -->
     <div id="slide-84">
         <section class="bg center bg-blue-oscuro animated fadeIn"> 
-            <div class="padding-section-2 mg-auto mgb-8">
-                <h4 class="font-bold text-left title-six">3.ALTA</h4>
-                <h5 class="font-bold text-left">3.1 <span class="font-light">PROCESO DE VENTA</span></h5>
+            <div class="padding-section-2 mg-auto mgb-8" style="width: 89%;">
+                <h4 style="margin-left: 7%;"  class="font-bold text-left title-six">3.ALTA</h4>
+                <h5 style="margin-left: 7%;margin-bottom: 7%;" class="font-bold text-left">3.1 <span class="font-light">PROCESO DE VENTA</span></h5>
                 <div class="row">
-                    <div class="col-md-6">
-                        
+                    <div class="col-md-6 col-xs-12 bounceIn animated tres">
+                        <div class="triangle-two">
+                        <ul style="padding-left: 65%;list-style: none;">
+                          <li class="li-one-t" style=" padding: 5% 0%;">Está en la base de 10 K</li>
+                          <li class="li-two-t" style="padding: 10% 0%;">Tiene 50 a más trabajadores</li>
+                          <li class="li-three-t" style="padding: 8% 0%;">Tiene o tuvo 50 o más móviles</li>
+                          <li class="li-four-t" style="padding: 7% 0%;">Tiene productos avanzados</li>
+                          <li class="li-five-t" style="padding: 2% 2%;">Tiene 4 a más locales<br>(Centrales . Locales.drsi)</li>
+                          <li class="li-six-t" style="padding: 2% 12%;">Facturación<br>mayor a S/.1500</li>
+                        </ul>
+                      </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                        
-                </div>
+                    <div class="col-md-6 col-xs-12 bounceIn animated tres">
+                        <div class="triangle-two">
+                        <ul style="padding-left: 65%;list-style: none;">
+                          <li class="li-one-t" style=" padding: 5% 0%;">Facturación mayor a s/.350</li>
+                          <li class="li-two-t" style="padding: 10% 0%;">Tiene 50 a más trabajadores</li>
+                          <li class="li-three-t" style="padding: 8% 0%;">Tiene 2 a más locales</li>
+                          <li class="li-four-t" style="padding: 7% 0%;">RUC 20</li>
+                          <li class="li-five-t" style="padding: 2% 2%;">Tenencia de Avanzados<br>(Centrales . Locales.drsi)</li>
+                          <li class="li-six-t" style="padding: 2% 12%;">Líneas móviles<br>&gt;=5</li>
+                          <li class="li-six-t" style="padding: 2% 24%;">Líneas fijas<br>&gt;=3</li>
+                        </ul>
+                      </div>
+                    </div>
+                
+              </div>
             </div>
         </section>
     </div>
@@ -2085,16 +2275,34 @@
     <div id="slide-85">
         <section class="bg center bg-blue-oscuro animated fadeIn"> 
             <div class="padding-section-2 mg-auto mgb-8">
-                <h4 class="font-bold text-left title-six">3.ALTA</h4>
-                <h5 class="font-bold text-left">3.1 <span class="font-light">PROCESO DE VENTA</span></h5>
-                <div class="row">
-                    <div class="col-md-6">
-                        
+                <h4 class="font-bold text-left title-six">5.POSTVENTA</h4>
+                <div>
+                    <h4 class="animated uno-cinco text-center" style="margin-bottom: 5%;">Modelo de atención</h4>
+                    <div>
+                        <div class="row text-center">
+                            <div class="col-md-6">
+                                <div class="box-left animated tres">
+                                    <div style="margin-bottom: 25px;" class="chart-dashed-left text-left">
+                                      <p><img  style="margin-right: 10px;" src="img/69/check.png" alt="">104</p>
+                                      <p><img style="margin-right: 10px;" src="img/69/check.png" alt=""></span>Ejecutivo Comercial</p>
+                                      <p><img style="margin-right: 10px;" src="img/69/check.png" alt=""></span>Multicentro</p>
+                                    </div>
+                                    <p class="fz font-bold">ALTO VALOR</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box-right  animated tres-cinco">
+                                    <div  style="margin-bottom: 25px;" class="chart-dashed-right text-left">
+                                      <p><img style="margin-right: 10px;" src="img/69/check.png" alt="">104</p>
+                                      <p><img style="margin-right: 10px;" src="img/69/check.png" alt="">Multicentro</p>
+                                      <p><img style="margin-right: 10px;" src="img/69/check.png" alt="">Ejecutivo Comercial</p>
+                                    </div>
+                                    <p class="fz font-bold">MEDIO VALOR</p>
+                                </div>
+                            </div>
+                        </div>                  
                     </div>
-                </div>
-                <div class="col-md-6">
-                        
-                </div>
+                  </div>
             </div>
         </section>
     </div>
